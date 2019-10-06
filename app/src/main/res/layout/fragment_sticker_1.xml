@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#6DE6FF"
+    tools:context=".sticker_1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="459dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777">
+
+        <TableRow android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/one"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/two"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/three"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/four"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/five"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/six"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/seven"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/eight"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/nine"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ten"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/eleven"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/twelve"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/thirteen"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/fourteen"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/fifteen"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/sixteen"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/seventeen"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/eighteen"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/nineteen"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/twenty"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</FrameLayout>
